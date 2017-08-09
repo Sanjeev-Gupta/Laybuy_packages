@@ -1,0 +1,147 @@
+<_>
+   <form_key>nal0dUqhs13mK1yH</form_key>
+   <name>Ced_Layaway</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>Magento Layaway Payment Gateway Module Developed By Lay-Buys Financial Solutions Pty Ltd (warrin@lay-buys.com)</summary>
+   <description>Welcome to Layaway, the leading provider of deferred payment plan solutions for online PayPal merchants globally
+
+We integrate affordable, flexible, secure, and scalable deferred payment plan solutions into your website shopping cart check-out zone
+
+Our sophisticated flagship SDK is PUT IT ON LAYAWAY and is powered by PayPal
+
+PUT IT ON LAYAWAY enables online shoppers to pay-off a product or service via a down payment and up to 3 monthly instalment payments
+
+Merchants however only deliver the product or service after receipt of the final instalment payment
+
+This effectively increases sales and radically improves cash flow where all the customer monies are paid directly into your PayPal account.</description>
+   <license>Open Software License (OSL)</license>
+   <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
+   <version>0.0.2</version>
+   <stability>stable</stability>
+   <notes>1. Order page have installment plans details in payment information section.
+2. Customer can view there installment plans of a order from account panel for detail read the user guide
+3. Enhance the payment association with order
+4. Installment plan can be canceled on order cancellation
+5. payment method only active at checkout per:
+       - min. checkout cart total
+       - allowed categories
+       - allowed customer groups
+       - excluded by product ids 
+6. SSL compatible</notes>
+   <authors>
+      <name>
+         <name>Warrin</name>
+         <name>Asheesh Singh</name>
+      </name>
+      <user>
+         <user>warrin</user>
+         <user>asheeshsingh</user>
+      </user>
+      <email>
+         <email>warrin@lay-buys.com</email>
+         <email>asheeshsingh@cedcoss.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.1.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files> </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magelocal</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+         <target>mageskin</target>
+         <target>mageskin</target>
+         <target>mage</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+      </target>
+      <path>
+         <path/>
+         <path>Ced/Layaway/</path>
+         <path>frontend/base/default/layout/layaway.xml</path>
+         <path>frontend/base/default/template/layaway/</path>
+         <path>modules/Ced_Layaway.xml</path>
+         <path>en_US/Ced_Layaway.csv</path>
+         <path>frontend/base/default/css/layaway/</path>
+         <path>frontend/base/default/images/layaway/</path>
+         <path>js/layaway/</path>
+         <path>adminhtml/default/default/layout/layaway.xml</path>
+         <path>adminhtml/default/default/template/layaway/</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>dir</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>
